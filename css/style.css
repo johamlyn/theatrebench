@@ -12,14 +12,15 @@
   clear: both;
 }
 
-@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300,400);
+/*@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300,400);
 * {
   margin: 0;
   padding: 0;
-}
+}*/
 
 html, body {
   height: 100%;
+  font-family: 'Roboto', sans-serif;
 }
 
 img {
@@ -27,7 +28,7 @@ img {
   width: 1184.25px;
 }
 
-.container {
+.home {
   align-items: center;
   display: flex;
   justify-content: center;
@@ -64,8 +65,6 @@ section {
   white-space: nowrap;
 }*/
 
-#section02 { background: url(https://www.nxworld.net/example/css-scroll-down-button/bg02.jpg) center center / cover no-repeat;}
-
 #section01 a span {
   position: absolute;
   top: 85%;
@@ -78,6 +77,56 @@ section {
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
   box-sizing: border-box;
+}
+
+#section02 {
+  background-color: white;
+
+  /*font-size: 20px;*/
+  height: 100%;
+  width: 100%;
+  /*margin-top: auto;
+  margin-bottom: auto;
+  padding: 0 20px 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;*/
+}
+
+.container {
+  display: flex;
+}
+
+.container > div {
+  flex: 1; /*grow*/
+}
+
+.pages {
+
+
+  font-size: 20px;
+  height: 250px;
+  width: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 0 20px 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.musicals {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: white;
+  text-decoration: none;
+  margin: 0 10px 0 10px;
+  padding: 75px;
+  -moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+  background-color: #e33f35;
 }
 
 @-webkit-keyframes sdb10 {
