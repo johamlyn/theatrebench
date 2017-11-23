@@ -24,7 +24,7 @@ body {
 
 .container {
   align-items: center;
-  background: url(../images/theatrebench-records.png) no-repeat center center fixed;
+  background: url(../images/theatrebench_records.png) no-repeat center center fixed;
   display: flex;
   justify-content: center;
   position: fixed;
