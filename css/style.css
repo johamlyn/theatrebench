@@ -12,12 +12,6 @@
   clear: both;
 }
 
-/*@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300,400);
-* {
-  margin: 0;
-  padding: 0;
-}*/
-
 html, body {
   height: 100%;
   font-family: 'Roboto', sans-serif;
@@ -52,28 +46,15 @@ section {
   height: 100%;
 }
 
-/*section h1 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  z-index: 2;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  color: #fff;
-  font : normal 300 64px/1 'Josefin Sans', sans-serif;
-  text-align: center;
-  white-space: nowrap;
-}*/
-
 #section01 a span {
   position: absolute;
-  top: 85%;
+  top: 90%;
   left: 50%;
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   margin-left: -12px;
-  border-left: 5px solid black;
-  border-bottom: 5px solid black;
+  border-left: 5px solid #323337;
+  border-bottom: 5px solid #323337;
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
   box-sizing: border-box;
@@ -81,32 +62,65 @@ section {
 
 #section02 {
   background-color: white;
-
-  /*font-size: 20px;*/
   height: 100%;
   width: 100%;
-  /*margin-top: auto;
-  margin-bottom: auto;
-  padding: 0 20px 0 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;*/
 }
 
 .container {
   display: flex;
+  padding-top: 50px;
 }
 
 .container > div {
   flex: 1; /*grow*/
 }
 
+.blurb {
+  color: #323337;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+  width: 50%;
+  padding: 0 150px 0 0;
+}
+
+.image {
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 50%;
+  padding: 30px 0 0 150px;
+}
+
+.image img {
+  border-radius: 5%;
+  text-align: center;
+  height: 55%;
+  width: 55%;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+p {
+  font-size: 15px;
+  padding-bottom: 30px;
+}
+
+blockquote {
+  font-size: 17px;
+  font-weight: bold;
+}
+
 .pages {
-
-
   font-size: 20px;
-  height: 250px;
+  height: 200px;
   width: 100%;
   margin-top: auto;
   margin-bottom: auto;
@@ -118,15 +132,18 @@ section {
 }
 
 .musicals {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  color: white;
-  text-decoration: none;
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+  background-color: #323337;
+  box-shadow: 0 4px 8px 0 #e33f35, 0 6px 20px 0 #e33f35;
+  color: #e33f35;
+  font-size: 20px;
+  font-weight: bold;
   margin: 0 10px 0 10px;
-  padding: 75px;
+  padding: 55px;
+  text-decoration: none;
   -moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
-	border-radius: 50px;
-  background-color: #e33f35;
+	border-radius: 10px;
 }
 
 @-webkit-keyframes sdb10 {

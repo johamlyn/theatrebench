@@ -17,30 +17,59 @@ body {
   color: white;
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  text-align: center;
-  max-width: 1700px;
   margin: 0 auto;
+  max-width: 1700px;
+  text-align: center;
+}
+
+.container {
+  align-items: center;
+  background: url(../images/logo.png) no-repeat center center fixed;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  font-size: 100px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+section {
+  font-style: italic;
+  margin-top: 200px;
+  text-align: center;
+}
+
+.main {
+  padding-top: 700px;
+  position: absolute;
+}
+
+.text {
+  background-color: black;
+  padding: 20px 0 20px 0;
 }
 
 header {
   background-color: white;
-  height: 50px;
-  position:fixed;
-  max-width: 1700px;
-  width:100%;
-}
-
-.content {
-  background: url(../images/logo.png) no-repeat center center fixed;
+  height: 60px;
 }
 
 li {
   display: inline-block;
-  /*margin: 20px 0 20px 0;
-  padding: 10px;*/
+  padding: 20px 30px 20px 30px;
 }
 
 li a {
+  color: #e33f35;
+  font-weight: bold;
+}
+
+li a:hover {
   color: black;
 }
 
@@ -49,30 +78,23 @@ a {
   text-decoration: none;
 }
 
-/*#about, #offer, #development, #marketing, #process {
-  display: block;
-  height: 0;
-  position: relative;
-  top:-150px;
-  width:0;
-}*/
-
-h1 {
-  font-size: 100px;
-  font-weight: bold;
-  padding-top: 275px;
-  /*text-shadow: 2px 2px 8px white;*/
+a:hover {
+  color: #e33f35;
 }
-
-
 
 h2 {
-  padding: 70px 0 0 0;
   font-size: 30px;
+  font-weight: bold;
+  padding: 20px;
 }
 
-p {
-  padding: 50px;
+p, blockquote {
+  font-size: 15px;
+  padding: 20px 100px 20px 100px;
+}
+
+blockquote {
+  font-style: italic;
 }
 
 footer {
@@ -82,4 +104,14 @@ footer {
 
 footer a {
   color: black;
+  display: block;
+}
+
+footer a:hover {
+  color: #e33f35;
+}
+
+.credit {
+  font-size: 10px;
+  padding: 20px 0 20px 0;
 }
