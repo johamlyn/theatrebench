@@ -1,0 +1,186 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after{
+  clear: both;
+}
+
+body {
+  background-color: black;
+  font-family: 'Roboto', sans-serif;
+  max-width: 1700px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: white;
+}
+
+header img {
+ margin: 15px 400px 0 100px;
+ width: 125px;
+ height: 84px;
+}
+
+.image {
+  float: left;
+}
+
+.list {
+  display:inline-block;
+  font-size: 20px;
+  margin: 50px 0 40px 0;
+}
+
+a {
+  text-decoration: none
+}
+
+header a {
+  color: #e33f35;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+header a:hover {
+  color: black;
+}
+
+/* .container {
+  display: flex;
+  padding-top: 50px;
+}
+
+.container > div {
+  flex: 1; /*grow*/
+} */
+
+/* .blurb {
+  color: #323337;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+  width: 50%;
+  padding: 0 150px 0 0;
+} */
+
+/* .image {
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 50%;
+  padding: 30px 0 0 150px;
+}
+
+.image img {
+  border-radius: 5%;
+  text-align: center;
+  height: 55%;
+  width: 55%;
+} */
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+p {
+  font-size: 15px;
+  padding-bottom: 30px;
+}
+
+blockquote {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.vectors {
+  background-color: white;
+  display: block;
+}
+
+.vectors img {
+  /*background-color: black;*/
+  height: 20%;
+  margin-bottom: 70px;
+  margin-left: 4%;
+  width: 20%;
+}
+
+/* quick reset */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* relevant styles */
+.img__wrap {
+  position: relative;
+  height: 200px;
+  width: 257px;
+}
+
+.img__description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.img__wrap:hover .img__description {
+  visibility: visible;
+  opacity: 1;
+}
+
+footer {
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+
+footer a {
+  color: black;
+  display: inline-block;
+}
+
+footer a:hover {
+  color: #e33f35;
+}
+
+footer img {
+  margin: 20px;
+  width: 50px;
+  height: 50px;
+}
+
+.credit {
+  font-size: 10px;
+  padding: 10px 0 10px 0;
+  display: block;
+}
