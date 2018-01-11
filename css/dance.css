@@ -23,7 +23,7 @@ body {
 .container {
   align-items: center;
   background: url(../images/dance1.jpg) no-repeat center center fixed;
-  justify-content: center;
+  /* justify-content: center; */
   position: fixed;
   height: 100%;
   width: 100%;
