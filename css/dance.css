@@ -20,12 +20,12 @@ body {
   max-width: 1700px;
 }
 
-.container {
+.top {
   align-items: center;
   background: url(../images/dance1.jpg) no-repeat center center fixed;
   /* justify-content: center; */
   position: fixed;
-  height: 100%;
+  height: 1000px;
   width: 100%;
 }
 
