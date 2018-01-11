@@ -80,10 +80,14 @@ header a:hover {
   text-align: center;
 }
 
-h2 {
+h2, h3 {
   font-size: 30px;
   font-weight: bold;
   padding: 20px;
+}
+
+h3 {
+  color: #e33f35;
 }
 
 a {
@@ -93,6 +97,14 @@ a {
 
 a:hover {
   color: white;
+}
+
+section a {
+  color: white;
+}
+
+section a:hover {
+  color: #e33f35;
 }
 
 p, blockquote {
