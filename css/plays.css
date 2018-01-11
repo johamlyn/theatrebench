@@ -16,8 +16,7 @@ body {
   background-image: url("../images/plays1.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  align-items: center;
-  justify-content: center;
+  background-position: center;
   background-color: black;
   color: white;
   font-family: 'Roboto', sans-serif;
