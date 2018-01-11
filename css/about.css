@@ -102,9 +102,7 @@ blockquote {
   font-size: 20px;
   font-weight: bold;
   padding-top: 35px;
-  /* color: #e33f35; */
-  color: orange;
-
+  color: #e33f35; 
 }
 
 h2 {
