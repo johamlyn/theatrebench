@@ -48,25 +48,24 @@ header {
 }
 
 header img {
- margin: 15px 400px 0 100px;
+ margin: 20px 0 20px 100px;
  width: 125px;
  height: 84px;
 }
 
-.image {
-  float: left;
+.list {
+  float: right;
+  font-size: 20px;
+  padding: 60px 100px 0 0;
 }
 
-.list {
-  display:inline-block;
-  font-size: 20px;
-  margin: 50px 0 40px 0;
+a {
+  text-decoration: none
 }
 
 header a {
   color: #e33f35;
-  font-weight: bold;
-  margin-left: 30px;
+  padding-left: 30px;
 }
 
 header a:hover {
