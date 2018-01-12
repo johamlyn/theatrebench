@@ -102,7 +102,8 @@ blockquote {
   font-size: 20px;
   font-weight: bold;
   padding-top: 35px;
-  color: #e33f35;
+  color: pink;
+  /* color: #e33f35; */
 }
 
 h2 {
@@ -117,8 +118,6 @@ h2 {
   justify-content: center;
   align-items: center;
   text-align: center;
-  /* display: block; */
-
 }
 
 .vectors img {
