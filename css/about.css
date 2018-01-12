@@ -102,8 +102,7 @@ blockquote {
   font-size: 20px;
   font-weight: bold;
   padding-top: 35px;
-  color: pink;
-  /* color: #e33f35; */
+  color: #e33f35; 
 }
 
 h2 {
@@ -118,6 +117,7 @@ h2 {
   justify-content: center;
   align-items: center;
   text-align: center;
+  width: 100%;
 }
 
 .vectors img {
@@ -137,7 +137,7 @@ h2 {
   display: inline-block;
   position: relative;
   height: 200px;
-  width: 300px;
+  width: 24%;
 }
 
 .img_description1 {
